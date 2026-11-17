@@ -1,9 +1,9 @@
+int sumar(int a, int b) => a + b;
+
 void main() {
-  int a, b, suma;
+  final a = 4;
+  final b = 5;
+  final resultado = sumar(a, b);
 
-  a = 4;
-  b = 5;
-  suma = a + b;
-
-  print("La suma de $a y $b es $suma");
+  print('La suma de $a y $b es $resultado');
 }
